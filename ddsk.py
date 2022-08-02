@@ -14,7 +14,8 @@ while not exit_flg:
     ddsk_sentences.append(str(index))
     
     if 11 < count:
-        ddsk_sentences.pop(0)
+        if 11 != count:
+            ddsk_sentences.pop(0)
         ddsk_sentence = ''.join(ddsk_sentences)
         if int(ddsk_sentence, 2) == FINISH:
             print('ラブ注入♡')
