@@ -21,4 +21,4 @@ while not exit_flg:
             exit_flg = True
     count = count + 1
 
-sys.exit
+sys.exit()
