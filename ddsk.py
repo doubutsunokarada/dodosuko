@@ -20,6 +20,7 @@ while not exit_flg:
         if int(ddsk_sentence, 2) == FINISH:
             print('ラブ注入♡')
             exit_flg = True
+            break
     count = count + 1
 
 sys.exit()
